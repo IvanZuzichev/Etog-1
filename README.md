@@ -9,7 +9,7 @@
   <li>--version=0   [version choose]</li>
 </ul>
 
-<h2>Migrator сommands examples:</h2>
+<h2>Migrator сommandss examples:</h2>
 <ul>
   <li>do migrations:                     go run cmd/migrator/main.go --conn-str="postgres://postgres:0@localhost:5432/etog?sslmode=disable" --path="./migrations"</li>
   <li>do migrations and name migr table: go run cmd/migrator/main.go --conn-str="postgres://postgres:0@localhost:5432/etog?sslmode=disable" --path="./migrations" --table="migr-table"</li>
